@@ -36,8 +36,7 @@ public class Job {
     public Integer getId() {
         return id;
     }
-
-
+    
     public void setId(Integer id) {
         this.id = id;
     }
@@ -47,17 +46,17 @@ public class Job {
         return title;
     }
 
-    // 🟢 Setter for title
+
     public void setTitle(String title) {
         this.title = title;
     }
 
-    // 🟢 Getter for description
+
     public String getDescription() {
         return description;
     }
 
-    // 🟢 Setter for description
+
     public void setDescription(String description) {
         this.description = description;
     }

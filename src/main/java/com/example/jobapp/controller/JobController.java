@@ -33,10 +33,10 @@ public class JobController {
         Job job = jobService.getJobById(id);
 
         if (job == null) {
-            return ResponseEntity.notFound().build(); // 404
+            return ResponseEntity.notFound().build();
         }
 
-        return ResponseEntity.ok(job); // 200
+        return ResponseEntity.ok(job);
     }
     @PutMapping("{id}")
     public Job updateJob(@PathVariable int id, @RequestBody Job job){
